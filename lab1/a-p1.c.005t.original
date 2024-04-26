@@ -1,0 +1,21 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a = 5;
+  int b = 7;
+  int c = 9;
+  int d;
+
+    int a = 5;
+    int b = 7;
+    int c = 9;
+    int d;
+  d = (b * c) * (b + c) + a;
+  printf ((const char * restrict) "%d", d);
+  return 0;
+}
+return 0;
+
